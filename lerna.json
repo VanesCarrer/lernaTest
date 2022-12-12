@@ -1,0 +1,17 @@
+{
+    "version": "12.1484.0",
+    "npmClient": "npm",
+    "packages": [
+      "packages/*"
+    ],
+    "useNx": true,
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ],
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    }
+}

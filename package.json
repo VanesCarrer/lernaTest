@@ -1,0 +1,24 @@
+{
+  "name": "lernatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna:bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanesCarrer/lernaTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanesCarrer/lernaTest/issues"
+  },
+  "homepage": "https://github.com/VanesCarrer/lernaTest#readme",
+  "dependencies": {
+    "lerna": "^6.1.0",
+    "nx": "^15.3.3"
+  }
+}
